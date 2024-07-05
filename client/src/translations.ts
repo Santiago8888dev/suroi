@@ -15,6 +15,7 @@ import { RUSSIAN_TRANSLATIONS } from "./translations/russian";
 import { TAMIL_TRANSLATIONS } from "./translations/tamil";
 import { TURKISH_TRANSLATIONS } from "./translations/turkısh";
 import { VIETNAMESE_TRANSLATIONS } from "./translations/vietnamese";
+import { SPANISH_TRANSLATIONS } from './translations/spanish';
 
 export type TranslationMap = Record<
     string,
@@ -45,6 +46,7 @@ export const TRANSLATIONS = {
         hu: HUNGARIAN_TRANSLATIONS,
         et: ESTONIAN_TRANSLATIONS,
         cz: CZECH_TRANSLATIONS,
+        es: SPANISH_TRANSLATIONS,
         hp18: {
             name: "HP-18",
             flag: "<img height=\"20\" src=\"./img/game/weapons/hp18.svg\" />"
